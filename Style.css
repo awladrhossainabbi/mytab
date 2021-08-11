@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+   /* font-family: 'Work Sans', sans-serif;*/
+    font-size: 16px;
+    font-family: arial;
+}
+*{margin: 0; padding: 0;}
+
+.Header{
+    width: 100%;
+    background: url(Image/Bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: absolute;
+    color: white;
+}
+.Wrapper{
+    width: 100%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.514);
+    background: rgba(153, 153, 153, 0.507);
+}
+.Continer {
+    width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Contact-info {
+    width: 600px;
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    font-family:  'Work Sans', sans-serif;
+}
+
+.Phone {
+    width: 88px;
+    float: left;
+    margin-right: 20px;
+    color: #333;
+    font-size: 15px;
+    padding: 10px 0px;
+    font-family:  'Work Sans', sans-serif;
+}
+
+.Email-info {
+    width: 450px;
+    float: left;
+    padding: 10px;
+    color: #333;
+    font-size: 15px;
+    font-family:  'Work Sans', sans-serif;
+}
+
+.Phone i {
+    color: #ff5200;
+    margin-right: 10px;
+}
+
+.Email-info i {
+    color: #ff5200;
+    margin-right: 10px;
+}
+
+.Right-linkbox {
+    width: 200px;
+    float: right;
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    word-spacing: 2px;
+}
+
+.Right-linkbox a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.Right-linkbox a i {
+    color: #ff5200;
+    font-size: 18px;
+    margin-right: 10px;
+}
+.Logo{
+   width: 170px;
+   float: left;
+   display: inline;
+
+}
+.Logo i {
+    font-size: 40px;
+    color: #ff00eb;
+}
+ul.Header-Menu {
+    width: 625px;
+    float: right;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+ul.Header-Menu li {
+    list-style: none;
+    float: right;
+    padding: 15px 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+ul.Header-Menu li a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: .3s;
+}
+ul.Header-Menu li:hover{
+    background: #ff5200;
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.Continer1 {
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+
+.Continer1 h1 {
+    margin-top: 100px;
+    color: white;
+    font-weight: 500;
+    font-family: 'Work Sans';
+}
+
+.Continer1 a {
+    color: white;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Work Sans';
+    margin-right: 10px;
+    transition: .3s;
+    margin-bottom: 100px;
+}
+
+.Continer1 a i {
+    color: #ff5200;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.Continer1 a:hover {
+    color: red;
+    font-size: 14px;
+}
+section.Search {
+    width: 100%;
+    height: 100px;
+}
+
+.Wrapper-S {
+    width: 650px;
+    margin: auto;
+    background: white;
+    padding: 30px 30px;
+    border-radius: 50px;
+    position: absolute;
+    box-shadow: 0px -1px 10px 3px #80008069;
+    left: 300px;
+    margin-top: -30px;
+}
+
+.Wrapper-S input {
+    width: 460px;
+    padding-left: 15px;
+    border: navajowhite;
+    border-bottom: 2px solid #99999938;
+    margin-right: 20px;
+}
+
+.Wrapper-S button {
+    width: 130px;
+    padding: 5px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background: navy;
+    transition: .3s;
+}
+.Wrapper-S button:hover{
+    color: white;
+    background: #ff5200;
+}
+.Q-Wrapper {
+    width: 750px;
+    margin: auto;
+}
+
+section.Quesiton {
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+section.Quesiton a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+    transition: .3s;
+    display: block;
+    color: #ff5200;
+    margin-bottom: 5px;
+}
+
+section.Quesiton h2 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+section.Quesiton a:hover {
+    color: navy;
+    font-weight: 600;
+}
+
+.Q-Wrapper button {
+    width: 220px;
+    margin-right: 15px;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    background: white;
+    transition: .3s;
+    border: none;
+    box-shadow: 1px 1px 3px 1px #333;
+}
+
+
+
+.Q-Wrapper button a {
+    display: block;
+    color: black;
+    font-size: 13px;
+    margin-top: 4px;
+    transition: .3s;
+}
+
+.Q-Wrapper button:hover {
+    background:linear-gradient(to top, navy 50%, purple 50%);
+    color: white;
+}
+
+.Q-Wrapper button:hover a {
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+section.Middle-point {
+    width: 100%;
+    margin-top: 50px;
+    padding: 50px 0px;
+}
+
+.M-Title {
+    width: 100%;
+    text-align: center;
+    background: navy;
+    padding-top: 80px;
+    padding-bottom: 130px;
+}
+
+.M-Title a {
+    text-decoration: none;
+    color: #ff5200;
+    font-family: 'Work Sans';
+    font-size: 17px;
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.M-Title h2 {
+    font-size: 25px;
+    font-family: 'Work Sans';
+    color: white;
+    font-weight: 400;
+}
+
+.M-Cardwrapper {
+    width: 780px;
+    margin: auto;
+    margin-top: -90px;
+    margin-bottom: 30px;
+    height: 250px;
+}
+
+.M-Single.card {
+    width: 150px;
+    padding: 20px 10px;
+    float: left;
+    border-radius: 6px;
+    background: white;
+    height: 215px;
+    text-align: center;
+    margin-right: 20px;
+    box-shadow: 2px 2px 5px 1px #999;
+}
+
+.M-Single.card:first-child {
+    margin-left: 20px;
+}
+.M-logo {
+    width: 60px;
+    height: 60px;
+    font-size: 35;
+    box-shadow: 1px 1px 3px 1px #999;
+    margin: auto;
+    border: 1px solid #9999992b;
+    margin-bottom: 23px;
+}
+
+.M-logo a {
+    color: #ff5200;
+    display: block;
+    margin-top: 12px;
+}
+.M-meta {
+    width: 100%;
+    font-family: 'Work Sans';
+    overflow: hidden;
+}
+
+.M-meta h3 {
+    color: #333;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.M-meta p {
+    color: #777;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+
+.M-meta a {
+    color: #333;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    display: block;
+}
+.M-Single.card:first-child .M-meta a {
+    margin-top: 50px;
+    display: block;
+}
+
+.M-Single.card:last-child .M-meta a {margin-top: 50px;}
+
+.L-Section{
+    width: 100%;
+    background:#252d8d;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 600px;
+
+}
+.L-Search-box {
+    width: 641px;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #ffffff54;
+    padding: 12px 42px;
+    overflow: hidden;
+    border-radius: 50px;
+}
+
+.L-Search-box i {
+    font-size: 50px;
+    float: left;
+    display: inline-block;
+    color: cyan;
+    margin-right: 20px;
+}
+
+.L-Search-box input {
+    border: none;
+    background: none;
+    float: left;
+    margin-top: 20px;
+    width: 400px;
+    border-bottom: 2px solid #99999975;
+    display: inline-block;
+}
+
+.Button-box {
+    width: 134px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    margin-top: 9px;
+}
+
+.Button-box button {
+    width: 125px;
+    border: none;
+    margin-left: 20px;
+    padding: 10px;
+    background: linear-gradient(45deg, #ff5200, #ff6b02a8);
+    border-radius: 30px;
+    color: white;
+    text-align: inherit;
+    padding-left: 20px;
+}
+
+.Button-box a {
+    width: 38px;
+    height: 38px;
+    position: absolute;
+    display: block;
+}
+
+.Button-box a i {
+    font-size: 15px;
+    height: 22px;
+    padding-top: 10px;
+    padding-bottom: 3px;
+    padding-left: 9px;
+    padding-right: 4px;
+    width: 23px;
+    color: white;
+    background: #e4e3e86e;
+    margin-top: -35px;
+    border-radius: 30px;
+    margin-left: 108px;
+}
+
+.Button-box a i:hover {
+    background: #333;
+    color: #ff5200;
+}
+.List-Wrapper {
+    width: 900px;
+    overflow: hidden;
+    margin: auto;
+    padding: 70px 0px;
+}
+
+.Single-List {
+    width: 225px;
+    float: left;
+    color: white;
+    font-family: 'Work Sans';
+}
+
+ul.List-1 {
+    width: 100%;
+    overflow: hidden;
+}
+
+ul.List-1 li {
+    list-style: none;
+    font-size: 12px;
+    line-height: 2;
+}
+
+ul.List-1 li a {
+    transition: .3s;
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+ul.List-1 li a i {
+    font-weight: 600;
+    font-size: smaller;
+    margin-right: 6px;
+}
+
+ul.List-1 li:hover a {
+    color: #ff5200;
+    font-size: 14px;
+}
+
+ul.List-1 li:hover a i {
+    color: aqua;
+    font-size: 15px;
+    padding-top: 0px;
+    display: inline-block;
+}
+
+.Single-List h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.M-Single.card:hover {
+    background: linear-gradient(180deg, purple, navy);
+}
+
+.M-Single.card:hover .M-logo a {
+    color: white;
+    border: 1px solid white;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    margin-top: inherit;
+    padding-left: 2px;
+}
+
+
+.M-Single.card:hover  .M-meta h3 {
+    color: white;
+}
+
+.M-Single.card:hover .M-meta p {
+    color: white;
+    font-weight: 400;
+}
+
+.M-Single.card:hover .M-meta a {
+    color: #ff5200;
+}
+.Apple-Wrapper {
+    width: 500px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.Single-apple {
+    width: 170px;
+    float: left;
+    font-size: 13px;
+    border-radius: 30px;
+    transition: .3s;
+    margin-left: 20px;
+    background: linear-gradient(180deg, #d204c2b5 , #00008061);
+}
+
+.Single-apple a i {
+    font-size: 25px;
+    background: #ffffff73;
+    border-radius: 100%;
+    padding: 10px 6px;
+    margin-left: 0px;
+    width: 30px;
+    transition: .3s;
+    text-align: center;
+    display: inline-block;
+    height: 22px;
+    float: left;
+}
+
+.Single-apple a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+.A-Info {
+    float: right;
+    width: 118px;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+
+i.fab.fa-apple a i:last-child {
+    color: azure;
+}
+
+.Single-apple a i:nth-child(2) {color: azure;}
+
+.Single-apple:last-child {
+    background: #309a9a;
+}
+
+.Single-apple:hover {
+    background: #ff5200;
+}
+
+.Single-apple:hover a i {
+    color: forestgreen;
+}
+
+.Single-apple:hover a {
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer.Footer {
+    width: 100%;
+    overflow: hidden;
+    background: #060669;
+    color: white;
+}
+
+.F-continer {
+    width: 1100px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.F-Info {
+    width: 300px;
+    float: left;
+    padding: 10px 0px;
+}
+
+.F-image {
+    width: 300px;
+    float: right;
+    overflow: hidden;
+}
+
+.F-image img {
+    width: 45px;
+    height: 25px;
+    margin-top: 7px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Carv-bg{
+width: 100%;
+background: url(Image/F.png);
+background-size: cover;
+background-repeat: no-repeat;
+height: 300px;
+}
+.Carv-Wrapper {
+    width: 500px;
+    margin: auto;
+    padding-top: 180px;
+    text-align: center;
+    color: white;
+}
+
+.Carv-Wrapper a {
+    color: #ff5200;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    display: inline-block;
+    transition: .3s;
+    margin-bottom: 5px;
+}
+.Carv-Wrapper a:hover{
+    color: aqua;
+}
+
+.Carv-Wrapper h1 {
+    font-family: 'Work Sans';
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.Carv-Wrapper p {
+    font-size: 13px;
+    color: #ffffff9c;
+}
+
+.Carv-Wrapper p a {
+    color: #ff5200;
+    display: inline-block;
+    margin-right: 3px;
+    font-size: 11px;
+    text-decoration: underline;
+}
+.Button-box button:hover {
+    background: #333;
+    color: #ff5200;
+}
+
+section.EX-btnBox {
+    width: 100%;
+    padding-top: 35px;
+    overflow: hidden;
+    margin-bottom: -70px;
+}
+
+.EX-boxWrapper {
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+.EX-boxWrapper a {
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ff5200;
+    margin-bottom: 5px;
+    display: inline-block;
+    transition: .5s;
+}
+
+.EX-boxWrapper h1 {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 3px;
+    font-family: 'Work Sans';
+}
+
+.EX-boxWrapper p {
+    color: #333;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.EX-boxWrapper a button {
+    padding: 5px 15px;
+    margin-left: 6px;
+    transition: .5s;
+    border-radius: 5px;
+    border: navajowhite;
+    background: linear-gradient(to left, purple , navy);
+    color: white;
+}
+
+.EX-boxWrapper a:hover button{
+    background: #ff5200;
+    transition:.5s;
+}
